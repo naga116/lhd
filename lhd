@@ -1,0 +1,500 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>龙虎斗路单</title>
+<link href="lhdcss.css" rel="stylesheet" type="text/css">
+<script src="jquery-2.0.3.min.js"></script>
+<script src="lhd_js.js"></script>
+</head>
+
+<body>
+<div>
+<div class="pagination">
+
+  <table>
+    <col span="1" style="background-color: #9CF" />
+    <caption>龙虎斗路单</caption>
+    <tr id="ht">
+      <th>序</th>
+      <th colspan="2">高注</th>
+      <th>平</th>
+      <th colspan="2">低注</th>
+    </tr>
+    <tr>
+      <td class=xh>1</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+    <tr>
+      <td class=xh>2</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+      <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>3</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>4</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>5</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>6</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>7</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>8</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>9</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>10</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>11</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>12</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>13</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>14</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>15</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>16</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>17</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>18</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>19</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>20</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>21</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>22</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>23</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>24</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>25</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>26</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>27</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>28</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>29</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>30</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>31</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>32</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>33</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>34</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>35</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>36</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>37</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>38</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>39</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>40</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>41</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>42</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>43</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>44</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>45</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>46</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>47</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>48</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>49</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>50</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>51</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>52</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>53</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>54</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>55</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>56</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>57</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>58</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>59</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>60</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>61</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>62</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr> <tr>
+      <td class=xh>63</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>64</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+     <tr>
+      <td class=xh>65</td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td> <td class=lhpp><a class=pa href="#fakelink">平</a></td>
+      <td class=lhp> <a class=la href="#fakelink">龙</a> </td>
+      <td class=lhp> <a class=ha href="#fakelink">虎</a> </td>
+    </tr>
+    
+  </table>
+ <div>
+  <button id="clr">清除所有</button>
+</div>
+</div>
+
+<div class=che>
+<label>Is this cool?</label>
+<input name="rate" id="r1" value="hell yeah" checked="" hidden="" type="radio">
+<label for="r1" class="radio"><span></span>hell yeah</label>
+<input name="rate" id="r2" value="a little" hidden="" type="radio">
+<label for="r2" class="radio"><span></span>a little</label>
+<input name="rate" id="r3" value="nope" hidden="" type="radio">
+<label for="r3" class="radio"><span></span>nope</label>
+</div>
+
+<div class=che2>
+
+<p>
+    <input name="s1" id="s1On" value="1" checked="" hidden="" type="radio">
+    <label for="s1On" class="switch switch--on">Yes</label>
+    <input name="s1" id="s1Off" value="0" hidden="" type="radio">
+    <label for="s1Off" class="switch switch--off">No</label>
+</p>
+<p>
+    <input name="s2" id="s2On" value="1" hidden="" type="radio">
+    <label for="s2On" class="switch switch--on">✓</label>
+    <input name="s2" id="s2Off" value="0" checked="" hidden="" type="radio">
+    <label for="s2Off" class="switch switch--off">✗</label>
+</p>
+<p>
+    <input name="s3" id="s3On" value="1" checked="" hidden="" type="radio">
+    <label for="s3On" class="switch switch--on">Sure</label>
+    <input name="s3" id="s3Off" value="0" hidden="" type="radio">
+    <label for="s3Off" class="switch switch--off">I dunno</label>
+</p>
+
+</div>
+</body>
+</html>
