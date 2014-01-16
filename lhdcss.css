@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+ a {
+	text-decoration: none;
+	color: #BCBCBC;
+	padding: 1px 5px 1px 5px;
+	font-family: "微软雅黑";
+	font-size: 11px;	
+}
+ 
+ .pagination table{
+	border-collapse: collapse;
+	background: #F6F6F6;
+ }
+ 
+ .pagination table caption{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	 }
+  	
+.pagination table,th {
+	border: 1px solid #F7F7F7 ;
+	text-align:center;  
+}
+.pagination table th{
+	padding: 3px; 
+	background: #ffcc00;
+	font: "微软雅黑";
+	font-size:12px;
+}
+/*
+.tdblue{background-color: #0066FF;}
+.tdred{background-color:#ff0000;}
+.tdgreen{background-color:#00CC00;}
+*/
+.xh{font-size:10px;
+width:20px;
+border: 1px solid #F7F7F7;}
+
+.la:hover, .tdred{ 
+	background-color: #FF0000;
+	font-weight:bold;
+	font-size:11px;
+	color: #ffffff; 
+	border-radius: 13px;
+	-webkit-transition: background .2s ease-out, border-color .2s ease-out, color .2s ease-out;
+	transition: background .2s ease-out, border-color .2s ease-out, color .2s ease-out;
+}
+.ha:hover,.tdblue{
+	background-color: #0066FF;
+	font-weight: bold;
+	font-size:11px;
+	color: #ffffff;
+	border-radius: 13px;
+ -webkit-transition: background .2s ease-out, border-color .2s ease-out, color .2s ease-out;
+	transition: background .2s ease-out, border-color .2s ease-out, color .2s ease-out; 
+}
+.pa:hover,.tdgreen{
+	background-color: #009900;
+	font-weight: bold;
+	font-size: 11px;
+	color: #ffffff;
+	border-radius: 13px;
+	-webkit-transition: background .2s ease-out, border-color .2s ease-out, color .2s ease-out;
+	transition: background .2s ease-out, border-color .2s ease-out, color .2s ease-out;
+} 
+	
+.lhp,.lhpp { width:16px;
+	/*padding:5px 6px 5px 6px;*/
+	}
+ 
+
+#clr{
+	font-size:12px;
+	width:150px;
+	padding:0px;
+	}
+.lhpp{
+	background-color: #FDFDFD;
+	border-left:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	}
+
+.che{
+	position: absolute;
+	left: 200px;
+}	
+/** %[Object] Radio buttons */
+/*------------------------------------*/
+@-webkit-keyframes pulse {
+    0% { width: .7em; height: .7em; margin: .4em;  }
+    50% { width: 1.1em; height: 1.1em; margin: .2em; }
+    100% { width: .9em; height: .9em; margin: .3em; }
+}
+
+@-moz-keyframes pulse {
+    0% { width: .7em; height: .7em; margin: .4em;  }
+    50% { width: 1.1em; height: 1.1em; margin: .2em; }
+    100% { width: .9em; height: .9em; margin: .3em; }
+}
+
+@-o-keyframes pulse {
+    0% { width: .7em; height: .7em; margin: .4em;  }
+    50% { width: 1.1em; height: 1.1em; margin: .2em; }
+    100% { width: .9em; height: .9em; margin: .3em; }
+}
+
+@keyframes pulse {
+    0% { width: .7em; height: .7em; margin: .4em;  }
+    50% { width: 1.1em; height: 1.1em; margin: .2em; }
+    100% { width: .9em; height: .9em; margin: .3em; }
+}
+
+.radio {
+	color: #CC3333;
+	cursor: pointer;
+	margin-left: 0.5em;
+	display: inline-block;
+}
+
+.radio,
+.radio span:before {
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -ms-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+#long {
+	width: 10px;
+	height: 10px;
+	margin-right: 0.5em;
+	border-radius: 8em;
+	background: #00F;
+	vertical-align: text-top;
+	display: inline-block;
+}
+
+.long_l span:before {
+	content: '1';
+	width: 0.7em;
+	height: 0.7em;
+	margin: 0.4em;
+	border-radius: 3em;
+	display: inline-block;
+	background-color: rgba(153,0,0,0.0);
+}
+
+.long_l:hover span:before {
+	background-color: rgba(0,255,51,0.9);
+}
+.hu_l:hover span:before {
+	background-color: rgba(0,255,51,0.9);
+}
+
+.p_l:hover span:before {
+	background-color: rgba(0,255,51,0.9);
+}
+
+
+/*------------------------------------*/
+
+input[type="radio"]:checked + .long_l {
+	color: #333333;
+}
+
+input[type="radio"]:checked + label:before {
+    background-color: #9fd86b;
+    width: .9em;
+    height: .9em;
+    margin: .3em;
+    -webkit-animation: pulse .25s;
+    -moz-animation:    pulse .25s;
+    -o-animation:      pulse .25s;
+    animation:         pulse .25s;
+}
+
+.pagination {
+	position: absolute;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	visibility: inherit;
+	float: none;
+	clear: both;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+/** %[Object] Switch */
+/*------------------------------------*/
+.switch {
+	color: #6f839a;
+	cursor: pointer;
+	font-weight: 600;
+	line-height: 1.5em;
+	border-radius: 3px;
+	padding: .125em .5em;
+	display: inline-block;
+	background-color: #3e4956;
+	-webkit-transition: .15s ease;
+	-moz-transition: .15s ease;
+	-ms-transition: .15s ease;
+	-o-transition: .15s ease;
+	transition: .15s ease;
+}
+
+input[type="radio"]:checked + .switch {
+	color: #fff;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+input[type="radio"]:checked + .switch--on {
+	background-color: #7eab55;
+}
+
+input[type="radio"]:checked + .switch--off {
+	background-color: #dd4a38;
+}
+
+.che2 {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+	vertical-align: bottom;
+	text-align: center;
+	display: inline-block;
+	border: 1px ridge #00C;
+}
+
+
+/*--------------button------------*/
+#clr{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 6px 20px;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: bold 13px arial, helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #555;
+  background-color: #ddd;
+  background-image: linear-gradient(top, rgba(255,255,255,1),
+                                         rgba(255,255,255,0)),
+                    url(data:image/png;base64,iVBORw0KGg[...]QmCC);
+  transition: background-color .2s ease-out;
+  background-clip: padding-box; /* Fix bleeding */
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3),
+              0 2px 2px -1px rgba(0, 0, 0, .5),
+              0 1px 0 rgba(255, 255, 255, .3) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255, .9);
+}
+ 
+#clr:hover{
+  background-color: #eee;
+  color: #555;
+}
+ 
+#clr:active{
+  background: #e9e9e9;
+  position: relative;
+  top: 1px;
+  text-shadow: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+}
+input {
+	list-style-type: none;
+}
